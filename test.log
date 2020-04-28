@@ -1,0 +1,958 @@
+Mon 27 Apr 2020 08:00:51 PM PDT
+Ubuntu 20.04 LTS \n \l
+
+Linux ubuntu 5.4.0-26-generic #30-Ubuntu SMP Mon Apr 20 16:58:30 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 166
+model name	: Intel(R) Core(TM) i7-10710U CPU @ 1.10GHz
+stepping	: 0
+microcode	: 0xb6
+cpu MHz		: 1608.000
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon nopl xtopology tsc_reliable nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid mpx rdseed adx smap clflushopt xsaveopt xsavec xsaves arat md_clear flush_l1d arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit
+bogomips	: 3216.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 43 bits physical, 48 bits virtual
+power management:
+
+MemTotal:        2006888 kB
+MemFree:          482748 kB
+MemAvailable:     938876 kB
+Buffers:           45100 kB
+Cached:           507076 kB
+SwapCached:            0 kB
+Active:           854100 kB
+Inactive:         252980 kB
+Active(anon):     551016 kB
+Inactive(anon):     1344 kB
+Active(file):     303084 kB
+Inactive(file):   251636 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:       1459804 kB
+SwapFree:        1459804 kB
+Dirty:              1416 kB
+Writeback:             0 kB
+AnonPages:        554908 kB
+Mapped:           230508 kB
+Shmem:              2388 kB
+KReclaimable:      65692 kB
+Slab:             161640 kB
+SReclaimable:      65692 kB
+SUnreclaim:        95948 kB
+KernelStack:       10332 kB
+PageTables:        11756 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     2463248 kB
+Committed_AS:    3470264 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:       24232 kB
+VmallocChunk:          0 kB
+Percpu:            90624 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:      200576 kB
+DirectMap2M:     1896448 kB
+DirectMap1G:           0 kB
+ 20:00:51 up 20 min,  1 user,  load average: 0.22, 0.10, 0.11
+ [ + ]  acpid
+ [ - ]  alsa-utils
+ [ - ]  anacron
+ [ + ]  apparmor
+ [ + ]  apport
+ [ + ]  avahi-daemon
+ [ + ]  bluetooth
+ [ - ]  console-setup.sh
+ [ + ]  cron
+ [ + ]  cups
+ [ + ]  cups-browsed
+ [ + ]  dbus
+ [ - ]  dns-clean
+ [ + ]  gdm3
+ [ + ]  grub-common
+ [ - ]  hwclock.sh
+ [ - ]  irqbalance
+ [ + ]  kerneloops
+ [ - ]  keyboard-setup.sh
+ [ + ]  kmod
+ [ + ]  network-manager
+ [ + ]  networking
+ [ + ]  open-vm-tools
+ [ + ]  openvpn
+ [ - ]  plymouth
+ [ - ]  plymouth-log
+ [ - ]  pppd-dns
+ [ + ]  procps
+ [ - ]  pulseaudio-enable-autospawn
+ [ - ]  rsync
+ [ + ]  rsyslog
+ [ - ]  saned
+ [ - ]  speech-dispatcher
+ [ - ]  spice-vdagent
+ [ + ]  udev
+ [ + ]  ufw
+ [ + ]  unattended-upgrades
+ [ - ]  uuidd
+ [ + ]  whoopsie
+ [ - ]  x11-common
+ens33: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.19.135  netmask 255.255.255.0  broadcast 192.168.19.255
+        inet6 fe80::57ab:9aae:a741:ba2c  prefixlen 64  scopeid 0x20<link>
+        ether 00:0c:29:e0:92:e0  txqueuelen 1000  (Ethernet)
+        RX packets 332  bytes 26876 (26.8 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 211  bytes 20652 (20.6 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 212  bytes 17649 (17.6 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 212  bytes 17649 (17.6 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
+0.0.0.0         192.168.19.2    0.0.0.0         UG        0 0          0 ens33
+169.254.0.0     0.0.0.0         255.255.0.0     U         0 0          0 ens33
+192.168.19.0    0.0.0.0         255.255.255.0   U         0 0          0 ens33
+? (192.168.19.254) at 00:50:56:f4:8f:61 [ether] on ens33
+_gateway (192.168.19.2) at 00:50:56:f5:cd:44 [ether] on ens33
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.2  0.5 104044 12000 ?        -    19:39   0:02 /sbin/init auto noprompt
+root           -  0.2    -      -     - -        Ss   19:39   0:02 -
+root           2  0.0  0.0      0     0 ?        -    19:39   0:00 [kthreadd]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root           3  0.0  0.0      0     0 ?        -    19:39   0:00 [rcu_gp]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root           4  0.0  0.0      0     0 ?        -    19:39   0:00 [rcu_par_gp]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root           6  0.0  0.0      0     0 ?        -    19:39   0:00 [kworker/0:0H-kblockd]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root           9  0.0  0.0      0     0 ?        -    19:39   0:00 [mm_percpu_wq]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root          10  0.0  0.0      0     0 ?        -    19:39   0:00 [ksoftirqd/0]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root          11  0.0  0.0      0     0 ?        -    19:39   0:00 [rcu_sched]
+root           -  0.0    -      -     - -        I    19:39   0:00 -
+root          12  0.0  0.0      0     0 ?        -    19:39   0:00 [migration/0]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root          13  0.0  0.0      0     0 ?        -    19:39   0:00 [idle_inject/0]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root          14  0.0  0.0      0     0 ?        -    19:39   0:00 [cpuhp/0]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root          15  0.0  0.0      0     0 ?        -    19:39   0:00 [kdevtmpfs]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root          16  0.0  0.0      0     0 ?        -    19:39   0:00 [netns]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root          17  0.0  0.0      0     0 ?        -    19:39   0:00 [rcu_tasks_kthre]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root          18  0.0  0.0      0     0 ?        -    19:39   0:00 [kauditd]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root          19  0.0  0.0      0     0 ?        -    19:39   0:00 [khungtaskd]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root          20  0.0  0.0      0     0 ?        -    19:39   0:00 [oom_reaper]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root          21  0.0  0.0      0     0 ?        -    19:39   0:00 [writeback]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root          22  0.0  0.0      0     0 ?        -    19:39   0:00 [kcompactd0]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root          23  0.0  0.0      0     0 ?        -    19:39   0:00 [ksmd]
+root           -  0.0    -      -     - -        SN   19:39   0:00 -
+root          24  0.0  0.0      0     0 ?        -    19:39   0:00 [khugepaged]
+root           -  0.0    -      -     - -        SN   19:39   0:00 -
+root         116  0.0  0.0      0     0 ?        -    19:39   0:00 [kintegrityd]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         117  0.0  0.0      0     0 ?        -    19:39   0:00 [kblockd]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         118  0.0  0.0      0     0 ?        -    19:39   0:00 [blkcg_punt_bio]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         119  0.0  0.0      0     0 ?        -    19:39   0:00 [tpm_dev_wq]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         120  0.0  0.0      0     0 ?        -    19:39   0:00 [ata_sff]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         121  0.0  0.0      0     0 ?        -    19:39   0:00 [md]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         122  0.0  0.0      0     0 ?        -    19:39   0:00 [edac-poller]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         123  0.0  0.0      0     0 ?        -    19:39   0:00 [devfreq_wq]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         124  0.0  0.0      0     0 ?        -    19:39   0:00 [watchdogd]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         127  0.0  0.0      0     0 ?        -    19:39   0:00 [kswapd0]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         128  0.0  0.0      0     0 ?        -    19:39   0:00 [ecryptfs-kthrea]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         131  0.0  0.0      0     0 ?        -    19:39   0:00 [kthrotld]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         132  0.0  0.0      0     0 ?        -    19:39   0:00 [irq/24-pciehp]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         133  0.0  0.0      0     0 ?        -    19:39   0:00 [irq/25-pciehp]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         134  0.0  0.0      0     0 ?        -    19:39   0:00 [irq/26-pciehp]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         135  0.0  0.0      0     0 ?        -    19:39   0:00 [irq/27-pciehp]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         136  0.0  0.0      0     0 ?        -    19:39   0:00 [irq/28-pciehp]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         137  0.0  0.0      0     0 ?        -    19:39   0:00 [irq/29-pciehp]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         138  0.0  0.0      0     0 ?        -    19:39   0:00 [irq/30-pciehp]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         139  0.0  0.0      0     0 ?        -    19:39   0:00 [irq/31-pciehp]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         140  0.0  0.0      0     0 ?        -    19:39   0:00 [irq/32-pciehp]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         141  0.0  0.0      0     0 ?        -    19:39   0:00 [irq/33-pciehp]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         142  0.0  0.0      0     0 ?        -    19:39   0:00 [irq/34-pciehp]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         143  0.0  0.0      0     0 ?        -    19:39   0:00 [irq/35-pciehp]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         144  0.0  0.0      0     0 ?        -    19:39   0:00 [irq/36-pciehp]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         145  0.0  0.0      0     0 ?        -    19:39   0:00 [irq/37-pciehp]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         146  0.0  0.0      0     0 ?        -    19:39   0:00 [irq/38-pciehp]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         147  0.0  0.0      0     0 ?        -    19:39   0:00 [irq/39-pciehp]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         148  0.0  0.0      0     0 ?        -    19:39   0:00 [irq/40-pciehp]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         149  0.0  0.0      0     0 ?        -    19:39   0:00 [irq/41-pciehp]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         150  0.0  0.0      0     0 ?        -    19:39   0:00 [irq/42-pciehp]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         151  0.0  0.0      0     0 ?        -    19:39   0:00 [irq/43-pciehp]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         152  0.0  0.0      0     0 ?        -    19:39   0:00 [irq/44-pciehp]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         153  0.0  0.0      0     0 ?        -    19:39   0:00 [irq/45-pciehp]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         154  0.0  0.0      0     0 ?        -    19:39   0:00 [irq/46-pciehp]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         155  0.0  0.0      0     0 ?        -    19:39   0:00 [irq/47-pciehp]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         156  0.0  0.0      0     0 ?        -    19:39   0:00 [irq/48-pciehp]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         157  0.0  0.0      0     0 ?        -    19:39   0:00 [irq/49-pciehp]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         158  0.0  0.0      0     0 ?        -    19:39   0:00 [irq/50-pciehp]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         159  0.0  0.0      0     0 ?        -    19:39   0:00 [irq/51-pciehp]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         160  0.0  0.0      0     0 ?        -    19:39   0:00 [irq/52-pciehp]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         161  0.0  0.0      0     0 ?        -    19:39   0:00 [irq/53-pciehp]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         162  0.0  0.0      0     0 ?        -    19:39   0:00 [irq/54-pciehp]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         163  0.0  0.0      0     0 ?        -    19:39   0:00 [irq/55-pciehp]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         164  0.0  0.0      0     0 ?        -    19:39   0:00 [acpi_thermal_pm]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         165  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_eh_0]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         166  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_tmf_0]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         167  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_eh_1]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         168  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_tmf_1]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         170  0.0  0.0      0     0 ?        -    19:39   0:00 [vfio-irqfd-clea]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         171  0.0  0.0      0     0 ?        -    19:39   0:00 [ipv6_addrconf]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         183  0.0  0.0      0     0 ?        -    19:39   0:00 [kstrp]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         187  0.0  0.0      0     0 ?        -    19:39   0:00 [kworker/u257:0-hci0]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         203  0.0  0.0      0     0 ?        -    19:39   0:00 [charger_manager]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         245  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_eh_2]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         246  0.0  0.0      0     0 ?        -    19:39   0:00 [mpt_poll_0]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         247  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_tmf_2]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         248  0.0  0.0      0     0 ?        -    19:39   0:00 [mpt/0]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         249  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_eh_3]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         250  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_tmf_3]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         251  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_eh_4]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         252  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_tmf_4]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         253  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_eh_5]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         254  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_tmf_5]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         255  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_eh_6]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         256  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_tmf_6]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         257  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_eh_7]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         258  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_tmf_7]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         259  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_eh_8]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         260  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_tmf_8]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         261  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_eh_9]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         262  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_tmf_9]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         264  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_eh_10]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         265  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_tmf_10]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         266  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_eh_11]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         268  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_tmf_11]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         269  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_eh_12]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         270  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_tmf_12]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         271  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_eh_13]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         272  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_tmf_13]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         273  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_eh_14]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         274  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_tmf_14]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         275  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_eh_15]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         276  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_tmf_15]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         277  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_eh_16]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         278  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_tmf_16]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         279  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_eh_17]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         280  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_tmf_17]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         281  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_eh_18]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         282  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_tmf_18]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         283  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_eh_19]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         284  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_tmf_19]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         285  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_eh_20]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         286  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_tmf_20]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         287  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_eh_21]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         288  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_tmf_21]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         289  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_eh_22]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         290  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_tmf_22]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         291  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_eh_23]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         292  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_tmf_23]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         293  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_eh_24]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         294  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_tmf_24]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         295  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_eh_25]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         296  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_tmf_25]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         297  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_eh_26]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         298  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_tmf_26]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         299  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_eh_27]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         300  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_tmf_27]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         301  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_eh_28]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         302  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_tmf_28]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         303  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_eh_29]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         304  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_tmf_29]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         305  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_eh_30]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         306  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_tmf_30]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         307  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_eh_31]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         308  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_tmf_31]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         331  0.0  0.0      0     0 ?        -    19:39   0:00 [kworker/u256:27-events_unbound]
+root           -  0.0    -      -     - -        I    19:39   0:00 -
+root         332  0.0  0.0      0     0 ?        -    19:39   0:00 [kworker/u256:28-flush-8:0]
+root           -  0.0    -      -     - -        I    19:39   0:00 -
+root         335  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_eh_32]
+root           -  0.0    -      -     - -        S    19:39   0:00 -
+root         336  0.0  0.0      0     0 ?        -    19:39   0:00 [scsi_tmf_32]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         339  0.0  0.0      0     0 ?        -    19:39   0:00 [kworker/0:1H-kblockd]
+root           -  0.0    -      -     - -        I<   19:39   0:00 -
+root         361  0.0  0.0      0     0 ?        -    19:40   0:00 [jbd2/sda1-8]
+root           -  0.0    -      -     - -        S    19:40   0:00 -
+root         362  0.0  0.0      0     0 ?        -    19:40   0:00 [ext4-rsv-conver]
+root           -  0.0    -      -     - -        I<   19:40   0:00 -
+root         401  0.0  1.3  60228 27484 ?        -    19:40   0:00 /lib/systemd/systemd-journald
+root           -  0.0    -      -     - -        S<s  19:40   0:00 -
+root         414  0.0  0.0      0     0 ?        -    19:40   0:01 [kworker/0:6-events]
+root           -  0.0    -      -     - -        I    19:40   0:01 -
+root         426  0.0  0.0      0     0 ?        -    19:40   0:00 [loop0]
+root           -  0.0    -      -     - -        S<   19:40   0:00 -
+root         428  0.0  0.0      0     0 ?        -    19:40   0:00 [loop1]
+root           -  0.0    -      -     - -        S<   19:40   0:00 -
+root         429  0.0  0.0      0     0 ?        -    19:40   0:00 [irq/16-vmwgfx]
+root           -  0.0    -      -     - -        S    19:40   0:00 -
+root         431  0.0  0.0      0     0 ?        -    19:40   0:00 [ttm_swap]
+root           -  0.0    -      -     - -        I<   19:40   0:00 -
+root         432  0.0  0.0      0     0 ?        -    19:40   0:00 [loop2]
+root           -  0.0    -      -     - -        S<   19:40   0:00 -
+root         434  0.0  0.0      0     0 ?        -    19:40   0:00 [loop3]
+root           -  0.0    -      -     - -        S<   19:40   0:00 -
+root         435  0.0  0.0      0     0 ?        -    19:40   0:00 [loop4]
+root           -  0.0    -      -     - -        S<   19:40   0:00 -
+root         438  0.0  0.0      0     0 ?        -    19:40   0:00 [loop5]
+root           -  0.0    -      -     - -        S<   19:40   0:00 -
+root         441  0.0  0.0      0     0 ?        -    19:40   0:00 [loop6]
+root           -  0.0    -      -     - -        S<   19:40   0:00 -
+root         443  0.0  0.0      0     0 ?        -    19:40   0:00 [loop7]
+root           -  0.0    -      -     - -        S<   19:40   0:00 -
+root         444  0.0  0.3  23792  7372 ?        -    19:40   0:00 /lib/systemd/systemd-udevd
+root           -  0.0    -      -     - -        Ss   19:40   0:00 -
+root         445  0.0  0.0      0     0 ?        -    19:40   0:00 [loop8]
+root           -  0.0    -      -     - -        S<   19:40   0:00 -
+root         447  0.0  0.0      0     0 ?        -    19:40   0:00 [loop9]
+root           -  0.0    -      -     - -        S<   19:40   0:00 -
+root         449  0.0  0.0      0     0 ?        -    19:40   0:00 [loop10]
+root           -  0.0    -      -     - -        S<   19:40   0:00 -
+root         465  0.0  0.0 150652   308 ?        -    19:40   0:00 vmware-vmblock-fuse /run/vmblock-fuse -o rw,subtype=vmware-vmblock,default_permissions,allow_other,dev,suid
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+systemd+     564  0.0  0.6  24044 12060 ?        -    19:40   0:00 /lib/systemd/systemd-resolved
+systemd+       -  0.0    -      -     - -        Ss   19:40   0:00 -
+systemd+     565  0.0  0.3  90516  6364 ?        -    19:40   0:00 /lib/systemd/systemd-timesyncd
+systemd+       -  0.0    -      -     - -        Ssl  19:40   0:00 -
+systemd+       -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root         567  0.0  0.5  50336 10812 ?        -    19:40   0:00 /usr/bin/VGAuthService
+root           -  0.0    -      -     - -        Ss   19:40   0:00 -
+root         569  0.0  0.3 190044  7572 ?        -    19:40   0:00 /usr/bin/vmtoolsd
+root           -  0.0    -      -     - -        S<sl 19:40   0:00 -
+root           -  0.0    -      -     - -        S<sl 19:40   0:00 -
+root           -  0.0    -      -     - -        S<sl 19:40   0:00 -
+root         620  0.0  0.3 238372  7684 ?        -    19:40   0:00 /usr/lib/accountsservice/accounts-daemon
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root         621  0.0  0.0   2540   716 ?        -    19:40   0:00 /usr/sbin/acpid
+root           -  0.0    -      -     - -        Ss   19:40   0:00 -
+avahi        624  0.0  0.1   8676  3704 ?        -    19:40   0:00 avahi-daemon: running [ubuntu.local]
+avahi          -  0.0    -      -     - -        Ss   19:40   0:00 -
+root         629  0.0  0.1   9636  3108 ?        -    19:40   0:00 /usr/sbin/cron -f
+root           -  0.0    -      -     - -        Ss   19:40   0:00 -
+root         630  0.0  0.4  28780  9260 ?        -    19:40   0:00 /usr/sbin/cupsd -l
+root           -  0.0    -      -     - -        Ss   19:40   0:00 -
+message+     631  0.0  0.3  10096  6716 ?        -    19:40   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+message+       -  0.0    -      -     - -        Ss   19:40   0:00 -
+root         632  0.0  0.9 409852 20036 ?        -    19:40   0:00 /usr/sbin/NetworkManager --no-daemon
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root         649  0.0  1.0  39556 20384 ?        -    19:40   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root           -  0.0    -      -     - -        Ss   19:40   0:00 -
+root         650  0.0  0.5 235244 10176 ?        -    19:40   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+syslog       659  0.0  0.2 224524  5208 ?        -    19:40   0:00 /usr/sbin/rsyslogd -n -iNONE
+syslog         -  0.0    -      -     - -        Ssl  19:40   0:00 -
+syslog         -  0.0    -      -     - -        Ssl  19:40   0:00 -
+syslog         -  0.0    -      -     - -        Ssl  19:40   0:00 -
+syslog         -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root         663  0.0  1.5 719164 31456 ?        -    19:40   0:01 /usr/lib/snapd/snapd
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root         664  0.0  0.3 235740  6600 ?        -    19:40   0:00 /usr/libexec/switcheroo-control
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root         666  0.0  0.4  17204  8308 ?        -    19:40   0:00 /lib/systemd/systemd-logind
+root           -  0.0    -      -     - -        Ss   19:40   0:00 -
+root         671  0.0  0.6 392976 12456 ?        -    19:40   0:00 /usr/lib/udisks2/udisksd
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root         673  0.0  0.2  13664  4916 ?        -    19:40   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+root           -  0.0    -      -     - -        Ss   19:40   0:00 -
+avahi        684  0.0  0.0   8544   356 ?        -    19:40   0:00 avahi-daemon: chroot helper
+avahi          -  0.0    -      -     - -        S    19:40   0:00 -
+root         704  0.0  0.6 180648 13164 ?        -    19:40   0:00 /usr/sbin/cups-browsed
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root         711  0.0  0.5 313724 10760 ?        -    19:40   0:00 /usr/sbin/ModemManager --filter-policy=strict
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root         731  0.0  0.4 239700  8640 ?        -    19:40   0:00 /usr/sbin/gdm3
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root         769  0.0  1.1 118268 22920 ?        -    19:40   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+whoopsie     812  0.0  0.7 327072 15996 ?        -    19:40   0:00 /usr/bin/whoopsie -f
+whoopsie       -  0.0    -      -     - -        Ssl  19:40   0:00 -
+whoopsie       -  0.0    -      -     - -        Ssl  19:40   0:00 -
+whoopsie       -  0.0    -      -     - -        Ssl  19:40   0:00 -
+kernoops     813  0.0  0.0  11240   448 ?        -    19:40   0:00 /usr/sbin/kerneloops --test
+kernoops       -  0.0    -      -     - -        Ss   19:40   0:00 -
+kernoops     822  0.0  0.0  11240   452 ?        -    19:40   0:00 /usr/sbin/kerneloops
+kernoops       -  0.0    -      -     - -        Ss   19:40   0:00 -
+rtkit        929  0.0  0.1 153140  3248 ?        -    19:40   0:00 /usr/libexec/rtkit-daemon
+rtkit          -  0.0    -      -     - -        SNsl 19:40   0:00 -
+rtkit          -  0.0    -      -     - -        Ssl  19:40   0:00 -
+rtkit          -  0.0    -      -     - -        SNsl 19:40   0:00 -
+root         976  0.0  0.4 252184  9724 ?        -    19:40   0:00 /usr/lib/upower/upowerd
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root           -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root        1057  0.0  0.0      0     0 ?        -    19:40   0:00 [kworker/u257:1-hci0]
+root           -  0.0    -      -     - -        I<   19:40   0:00 -
+root        1065  0.0  0.0      0     0 ?        -    19:40   0:00 [cryptd]
+root           -  0.0    -      -     - -        I<   19:40   0:00 -
+colord      1320  0.0  0.7 246444 14840 ?        -    19:40   0:00 /usr/libexec/colord
+colord         -  0.0    -      -     - -        Ssl  19:40   0:00 -
+colord         -  0.0    -      -     - -        Ssl  19:40   0:00 -
+colord         -  0.0    -      -     - -        Ssl  19:40   0:00 -
+root        1348  0.0  0.2   8340  4984 ?        -    19:40   0:00 /usr/lib/bluetooth/bluetoothd
+root           -  0.0    -      -     - -        Ss   19:40   0:00 -
+root        1425  0.0  0.4 167280  9476 ?        -    19:41   0:00 gdm-session-worker [pam/gdm-password]
+root           -  0.0    -      -     - -        Sl   19:41   0:00 -
+root           -  0.0    -      -     - -        Sl   19:41   0:00 -
+root           -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren       1439  0.0  0.6  20792 12212 ?        -    19:41   0:00 /lib/systemd/systemd --user LANG=en_US.UTF-8 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin NOTIFY_SOCKET=/run/systemd/notify HOME=/home/xtren LOGNAME=xtren USER=xtren SHELL=/bin/bash INVOCATION_ID=a4086929bcd645c9b8af7cf6ffeca184 JOURNAL_STREAM=9:46654 XDG_RUNTIME_DIR=/run/user/1000
+xtren          -  0.0    -      -     - -        Ss   19:41   0:00 -
+xtren       1440  0.0  0.1 103452  3560 ?        -    19:41   0:00 (sd-pam)
+xtren          -  0.0    -      -     - -        S    19:41   0:00 -
+xtren       1446  0.1  0.9 1670408 18816 ?       -    19:41   0:02 /usr/bin/pulseaudio --daemonize=no --log-target=journal HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/local/share/:/usr/share/:/var/lib/snapd/desktop DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus NOTIFY_SOCKET=/run/user/1000/systemd/notify MANAGERPID=1439 LISTEN_PID=1446 LISTEN_FDS=1 LISTEN_FDNAMES=pulseaudio.socket INVOCATION_ID=a51657ec6aec49f5b1bf8aaa5757610b JOURNAL_STREAM=9:47056
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.1    -      -     - -        Ssl  19:41   0:01 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren       1449  0.0  1.2 511320 24460 ?        -    19:41   0:00 /usr/libexec/tracker-miner-fs HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/local/share/:/usr/share/:/var/lib/snapd/desktop DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus MANAGERPID=1439 INVOCATION_ID=4dd9bc8ee47e4fc6ba904dbda1e7cb48 JOURNAL_STREAM=9:47066
+xtren          -  0.0    -      -     - -        SNsl 19:41   0:00 -
+xtren          -  0.0    -      -     - -        SNsl 19:41   0:00 -
+xtren          -  0.0    -      -     - -        SNsl 19:41   0:00 -
+xtren          -  0.0    -      -     - -        SNsl 19:41   0:00 -
+xtren          -  0.0    -      -     - -        SNsl 19:41   0:00 -
+xtren          -  0.0    -      -     - -        SNsl 19:59   0:00 -
+xtren       1451  0.0  0.3 240144  7832 ?        -    19:41   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren       1455  0.0  0.4  11500  8576 ?        -    19:41   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/local/share/:/usr/share/:/var/lib/snapd/desktop DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus MANAGERPID=1439 LISTEN_PID=1455 LISTEN_FDS=1 LISTEN_FDNAMES=dbus.socket INVOCATION_ID=212b224037614c7b933e26f18e559a69 JOURNAL_STREAM=9:47148
+xtren          -  0.0    -      -     - -        Ss   19:41   0:00 -
+xtren       1471  0.0  0.3 239700  7568 ?        -    19:41   0:00 /usr/libexec/gvfsd HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/local/share/:/usr/share/:/var/lib/snapd/desktop DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus MANAGERPID=1439 INVOCATION_ID=6634c31c1a4042c7bc798163135c4f73 JOURNAL_STREAM=9:47219
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren       1476  0.0  0.3 378336  6308 ?        -    19:41   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/local/share/:/usr/share/:/var/lib/snapd/desktop DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus MANAGERPID=1439 INVOCATION_ID=6634c31c1a4042c7bc798163135c4f73 JOURNAL_STREAM=9:47219
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren       1477  0.0  0.4 314132  9276 ?        -    19:41   0:00 /usr/libexec/gvfs-udisks2-volume-monitor HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/local/share/:/usr/share/:/var/lib/snapd/desktop DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus MANAGERPID=1439 INVOCATION_ID=14863a6378ad4a9981ce1d06082afc6d JOURNAL_STREAM=9:47279
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren       1489  0.0  0.3 163996  6608 tty2     -    19:41   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu XDG_SEAT=seat0 LOGNAME=xtren USER=xtren USERNAME=xtren HOME=/home/xtren PWD=/home/xtren SHELL=/bin/bash PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games XDG_SESSION_TYPE=x11 XDG_VTNR=2 LANG=en_US.UTF-8 XDG_SESSION_ID=2 XDG_RUNTIME_DIR=/run/user/1000 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus XDG_SESSION_CLASS=user XDG_CURRENT_DESKTOP=ubuntu:GNOME GDMSESSION=ubuntu DESKTOP_SESSION=ubuntu XDG_SESSION_DESKTOP=ubuntu
+xtren          -  0.0    -      -     - -        Ssl+ 19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl+ 19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl+ 19:41   0:00 -
+xtren       1490  0.0  0.3 235868  6228 ?        -    19:41   0:00 /usr/libexec/gvfs-goa-volume-monitor HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/local/share/:/usr/share/:/var/lib/snapd/desktop DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus MANAGERPID=1439 INVOCATION_ID=6bca23c724074dc499ab31d8d29ab47c JOURNAL_STREAM=9:47426
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren       1494  0.0  1.7 615356 35656 ?        -    19:41   0:00 /usr/libexec/goa-daemon SHELL=/bin/bash DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=e0d4bd41cc458ff7af3f89e75ea797d6 XDG_RUNTIME_DIR=/run/user/1000 QT_ACCESSIBILITY=1 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin GTK_MODULES=gail:atk-bridge XDG_DATA_DIRS=/usr/local/share/:/usr/share/:/var/lib/snapd/desktop JOURNAL_STREAM=9:47148 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=e0d4bd41cc458ff7af3f89e75ea797d6 INVOCATION_ID=212b224037614c7b933e26f18e559a69 USER=xtren DBUS_STARTER_BUS_TYPE=session LANG=en_US.UTF-8 MANAGERPID=1439 HOME=/home/xtren LOGNAME=xtren
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren       1496  0.3  2.9 260300 59152 tty2     -    19:41   0:04 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3 USER=xtren XDG_SEAT=seat0 XDG_SESSION_TYPE=x11 HOME=/home/xtren DESKTOP_SESSION=ubuntu XORG_RUN_AS_USER_OK=1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus LOGNAME=xtren XDG_SESSION_CLASS=user USERNAME=xtren XDG_SESSION_ID=2 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games XDG_RUNTIME_DIR=/run/user/1000 LANG=en_US.UTF-8 XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_SESSION_DESKTOP=ubuntu SHELL=/bin/bash GDMSESSION=ubuntu XDG_VTNR=2 PWD=/home/xtren
+xtren          -  0.3    -      -     - -        Sl+  19:41   0:03 -
+xtren          -  0.0    -      -     - -        Sl+  19:41   0:00 -
+xtren       1505  0.0  0.4 314748  8808 ?        -    19:41   0:00 /usr/libexec/goa-identity-service SHELL=/bin/bash DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=e0d4bd41cc458ff7af3f89e75ea797d6 XDG_RUNTIME_DIR=/run/user/1000 QT_ACCESSIBILITY=1 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin GTK_MODULES=gail:atk-bridge XDG_DATA_DIRS=/usr/local/share/:/usr/share/:/var/lib/snapd/desktop JOURNAL_STREAM=9:47148 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=e0d4bd41cc458ff7af3f89e75ea797d6 INVOCATION_ID=212b224037614c7b933e26f18e559a69 USER=xtren DBUS_STARTER_BUS_TYPE=session LANG=en_US.UTF-8 MANAGERPID=1439 HOME=/home/xtren LOGNAME=xtren
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren       1507  0.0  0.4 316720  8772 ?        -    19:41   0:00 /usr/libexec/gvfs-afc-volume-monitor HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/local/share/:/usr/share/:/var/lib/snapd/desktop DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus MANAGERPID=1439 INVOCATION_ID=fa2d45323eb4474fbc89a695e45654f4 JOURNAL_STREAM=9:47709
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren       1515  0.0  0.2 235688  5708 ?        -    19:41   0:00 /usr/libexec/gvfs-mtp-volume-monitor HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/local/share/:/usr/share/:/var/lib/snapd/desktop DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus MANAGERPID=1439 INVOCATION_ID=5ad294d89118417ab0ae70d7a9052e3d JOURNAL_STREAM=9:47757
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren       1520  0.0  0.3 238088  7208 ?        -    19:41   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/local/share/:/usr/share/:/var/lib/snapd/desktop DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus MANAGERPID=1439 INVOCATION_ID=665c3caf1bbc43f7bd4c5582d8ad7e1c JOURNAL_STREAM=9:47803
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+root        1542  0.0  0.0      0     0 ?        -    19:41   0:00 [krfcommd]
+root           -  0.0    -      -     - -        S<   19:41   0:00 -
+xtren       1546  0.0  0.6 188376 14044 tty2     -    19:41   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu USER=xtren XDG_SEAT=seat0 XDG_SESSION_TYPE=x11 SSH_AGENT_PID=1620 SHLVL=0 QT4_IM_MODULE=ibus HOME=/home/xtren DESKTOP_SESSION=ubuntu GTK_MODULES=gail:atk-bridge GNOME_SHELL_SESSION_MODE=ubuntu DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus GTK_IM_MODULE=ibus LOGNAME=xtren XDG_SESSION_CLASS=user USERNAME=xtren XDG_SESSION_ID=2 WINDOWPATH=2 PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin XDG_RUNTIME_DIR=/run/user/1000 DISPLAY=:0 LANG=en_US.UTF-8 XDG_CURRENT_DESKTOP=ubuntu:GNOME XMODIFIERS=@im=ibus XDG_SESSION_DESKTOP=ubuntu XAUTHORITY=/run/user/1000/gdm/Xauthority SSH_AUTH_SOCK=/tmp/ssh-E5aDvJoJCJpe/agent.1546 SHELL=/bin/bash QT_ACCESSIBILITY=1 GDMSESSION=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 QT_IM_MODULE=ibus XDG_VTNR=2 PWD=/home/xtren XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg CLUTTER_IM_MODULE=ibus XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+xtren          -  0.0    -      -     - -        Sl+  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl+  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl+  19:41   0:00 -
+xtren       1620  0.0  0.0   6032   456 ?        -    19:41   0:00 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+xtren          -  0.0    -      -     - -        Ss   19:41   0:00 -
+xtren       1637  0.0  0.3 384896  7184 ?        -    19:41   0:00 /usr/bin/ibus-daemon --daemonize --xim USER=xtren XDG_SEAT=seat0 XDG_SESSION_TYPE=x11 SSH_AGENT_PID=1620 SHLVL=0 QT4_IM_MODULE=ibus HOME=/home/xtren DESKTOP_SESSION=ubuntu GTK_MODULES=gail:atk-bridge DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus IM_CONFIG_PHASE=2 GTK_IM_MODULE=ibus LOGNAME=xtren XDG_SESSION_CLASS=user USERNAME=xtren XDG_SESSION_ID=2 WINDOWPATH=2 PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin XDG_RUNTIME_DIR=/run/user/1000 DISPLAY=:0 LANG=en_US.UTF-8 XDG_CURRENT_DESKTOP=ubuntu:GNOME IBUS_ENABLE_SYNC_MODE=0 XMODIFIERS=@im=ibus XDG_SESSION_DESKTOP=ubuntu XAUTHORITY=/run/user/1000/gdm/Xauthority SSH_AUTH_SOCK=/tmp/ssh-E5aDvJoJCJpe/agent.1546 SHELL=/bin/bash QT_ACCESSIBILITY=1 GDMSESSION=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 QT_IM_MODULE=ibus XDG_VTNR=2 PWD=/home/xtren XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg CLUTTER_IM_MODULE=ibus XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren       1641  0.0  0.3 162696  7172 ?        -    19:41   0:00 /usr/libexec/ibus-memconf USER=xtren XDG_SEAT=seat0 XDG_SESSION_TYPE=x11 SSH_AGENT_PID=1620 SHLVL=0 QT4_IM_MODULE=ibus HOME=/home/xtren DESKTOP_SESSION=ubuntu GTK_MODULES=gail:atk-bridge DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus IM_CONFIG_PHASE=2 GTK_IM_MODULE=ibus LOGNAME=xtren XDG_SESSION_CLASS=user USERNAME=xtren XDG_SESSION_ID=2 WINDOWPATH=2 PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin XDG_RUNTIME_DIR=/run/user/1000 DISPLAY=:0 LANG=en_US.UTF-8 XDG_CURRENT_DESKTOP=ubuntu:GNOME IBUS_ENABLE_SYNC_MODE=0 XMODIFIERS=@im=ibus XDG_SESSION_DESKTOP=ubuntu XAUTHORITY=/run/user/1000/gdm/Xauthority SSH_AUTH_SOCK=/tmp/ssh-E5aDvJoJCJpe/agent.1546 SHELL=/bin/bash QT_ACCESSIBILITY=1 GDMSESSION=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 QT_IM_MODULE=ibus XDG_VTNR=2 PWD=/home/xtren XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg CLUTTER_IM_MODULE=ibus XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren       1642  0.0  3.4 429212 69504 ?        -    19:41   0:00 /usr/libexec/ibus-ui-gtk3 USER=xtren XDG_SEAT=seat0 XDG_SESSION_TYPE=x11 SSH_AGENT_PID=1620 SHLVL=0 QT4_IM_MODULE=ibus HOME=/home/xtren DESKTOP_SESSION=ubuntu GTK_MODULES=gail:atk-bridge DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus IM_CONFIG_PHASE=2 GTK_IM_MODULE=ibus LOGNAME=xtren XDG_SESSION_CLASS=user USERNAME=xtren XDG_SESSION_ID=2 WINDOWPATH=2 PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin XDG_RUNTIME_DIR=/run/user/1000 DISPLAY=:0 LANG=en_US.UTF-8 XDG_CURRENT_DESKTOP=ubuntu:GNOME IBUS_ENABLE_SYNC_MODE=0 XMODIFIERS=@im=ibus XDG_SESSION_DESKTOP=ubuntu XAUTHORITY=/run/user/1000/gdm/Xauthority SSH_AUTH_SOCK=/tmp/ssh-E5aDvJoJCJpe/agent.1546 SHELL=/bin/bash QT_ACCESSIBILITY=1 GDMSESSION=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 QT_IM_MODULE=ibus XDG_VTNR=2 PWD=/home/xtren XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg CLUTTER_IM_MODULE=ibus XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren       1643  0.1  2.9 392164 60016 ?        -    19:41   0:01 /usr/libexec/ibus-extension-gtk3 USER=xtren XDG_SEAT=seat0 XDG_SESSION_TYPE=x11 SSH_AGENT_PID=1620 SHLVL=0 QT4_IM_MODULE=ibus HOME=/home/xtren DESKTOP_SESSION=ubuntu GTK_MODULES=gail:atk-bridge DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus IM_CONFIG_PHASE=2 GTK_IM_MODULE=ibus LOGNAME=xtren XDG_SESSION_CLASS=user USERNAME=xtren XDG_SESSION_ID=2 WINDOWPATH=2 PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin XDG_RUNTIME_DIR=/run/user/1000 DISPLAY=:0 LANG=en_US.UTF-8 XDG_CURRENT_DESKTOP=ubuntu:GNOME IBUS_ENABLE_SYNC_MODE=0 XMODIFIERS=@im=ibus XDG_SESSION_DESKTOP=ubuntu XAUTHORITY=/run/user/1000/gdm/Xauthority SSH_AUTH_SOCK=/tmp/ssh-E5aDvJoJCJpe/agent.1546 SHELL=/bin/bash QT_ACCESSIBILITY=1 GDMSESSION=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 QT_IM_MODULE=ibus XDG_VTNR=2 PWD=/home/xtren XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg CLUTTER_IM_MODULE=ibus XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+xtren          -  0.1    -      -     - -        Sl   19:41   0:01 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren       1648  0.0  1.4 197880 28140 ?        -    19:41   0:00 /usr/libexec/ibus-x11 --kill-daemon USER=xtren XDG_SEAT=seat0 XDG_SESSION_TYPE=x11 SSH_AGENT_PID=1620 SHLVL=0 QT4_IM_MODULE=ibus HOME=/home/xtren DESKTOP_SESSION=ubuntu GTK_MODULES=gail:atk-bridge DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus IM_CONFIG_PHASE=2 GTK_IM_MODULE=ibus LOGNAME=xtren XDG_SESSION_CLASS=user USERNAME=xtren XDG_SESSION_ID=2 WINDOWPATH=2 PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin XDG_RUNTIME_DIR=/run/user/1000 DISPLAY=:0 LANG=en_US.UTF-8 XDG_CURRENT_DESKTOP=ubuntu:GNOME IBUS_ENABLE_SYNC_MODE=0 XMODIFIERS=@im=ibus XDG_SESSION_DESKTOP=ubuntu XAUTHORITY=/run/user/1000/gdm/Xauthority SSH_AUTH_SOCK=/tmp/ssh-E5aDvJoJCJpe/agent.1546 SHELL=/bin/bash QT_ACCESSIBILITY=1 GDMSESSION=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 QT_IM_MODULE=ibus XDG_VTNR=2 PWD=/home/xtren XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg CLUTTER_IM_MODULE=ibus XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren       1651  0.0  0.3 236496  6328 ?        -    19:41   0:00 /usr/libexec/ibus-portal SHELL=/bin/bash CLUTTER_IM_MODULE=ibus DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=e0d4bd41cc458ff7af3f89e75ea797d6 XDG_CURRENT_DESKTOP=ubuntu:GNOME DISPLAY=:0 XDG_RUNTIME_DIR=/run/user/1000 QT_ACCESSIBILITY=1 DESKTOP_SESSION=ubuntu XMODIFIERS=@im=ibus WINDOWPATH=2 PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin GDMSESSION=ubuntu USERNAME=xtren GTK_IM_MODULE=ibus GTK_MODULES=gail:atk-bridge XDG_SESSION_TYPE=x11 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop JOURNAL_STREAM=9:47148 IM_CONFIG_PHASE=1 GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 QT4_IM_MODULE=ibus DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=e0d4bd41cc458ff7af3f89e75ea797d6 INVOCATION_ID=212b224037614c7b933e26f18e559a69 QT_IM_MODULE=ibus XDG_SESSION_CLASS=user XAUTHORITY=/run/user/1000/gdm/Xauthority USER=xtren DBUS_STARTER_BUS_TYPE=session SHLVL=1 PWD=/home/xtren LANG=en_US.UTF-8 MANAGERPID=1439 _=/usr/bin/dbus-update-activation-environment XDG_SESSION_DESKTOP=ubuntu XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg HOME=/home/xtren LOGNAME=xtren
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren       1656  0.0  0.3 305512  6752 ?        -    19:41   0:00 /usr/libexec/at-spi-bus-launcher HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop CLUTTER_IM_MODULE=ibus DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 GTK_IM_MODULE=ibus IM_CONFIG_PHASE=1 PWD=/home/xtren QT4_IM_MODULE=ibus QT_IM_MODULE=ibus SHLVL=1 USERNAME=xtren WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1439 INVOCATION_ID=694d42c519774f5a96ea9920cec9d63a JOURNAL_STREAM=9:48465
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren       1661  0.0  0.2   7440  4512 ?        -    19:41   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3 HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop CLUTTER_IM_MODULE=ibus DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 GTK_IM_MODULE=ibus IM_CONFIG_PHASE=1 PWD=/home/xtren QT4_IM_MODULE=ibus QT_IM_MODULE=ibus SHLVL=1 USERNAME=xtren WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1439 INVOCATION_ID=694d42c519774f5a96ea9920cec9d63a JOURNAL_STREAM=9:48465
+xtren          -  0.0    -      -     - -        S    19:41   0:00 -
+xtren       1665  0.0  0.5 462880 10660 ?        -    19:41   0:00 /usr/libexec/xdg-desktop-portal HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop CLUTTER_IM_MODULE=ibus DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 GTK_IM_MODULE=ibus IM_CONFIG_PHASE=1 PWD=/home/xtren QT4_IM_MODULE=ibus QT_IM_MODULE=ibus SHLVL=1 USERNAME=xtren WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1439 INVOCATION_ID=c542bd2918a24fc590e93ef946da22a5 JOURNAL_STREAM=9:48587
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  20:00   0:00 -
+xtren       1669  0.0  0.3 457520  6672 ?        -    19:41   0:00 /usr/libexec/xdg-document-portal HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop CLUTTER_IM_MODULE=ibus DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 GTK_IM_MODULE=ibus IM_CONFIG_PHASE=1 PWD=/home/xtren QT4_IM_MODULE=ibus QT_IM_MODULE=ibus SHLVL=1 USERNAME=xtren WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1439 INVOCATION_ID=b3bdba42f38842ea8272dfadebb1742f JOURNAL_STREAM=9:48636
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  20:00   0:00 -
+xtren       1672  0.0  0.2 235588  4748 ?        -    19:41   0:00 /usr/libexec/xdg-permission-store HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop CLUTTER_IM_MODULE=ibus DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 GTK_IM_MODULE=ibus IM_CONFIG_PHASE=1 PWD=/home/xtren QT4_IM_MODULE=ibus QT_IM_MODULE=ibus SHLVL=1 USERNAME=xtren WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1439 INVOCATION_ID=a1360fe7c98243039ce7c502346667bf JOURNAL_STREAM=9:48681
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren       1681  0.0  1.5 348228 30924 ?        -    19:41   0:00 /usr/libexec/xdg-desktop-portal-gtk HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop CLUTTER_IM_MODULE=ibus DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 GTK_IM_MODULE=ibus IM_CONFIG_PHASE=1 PWD=/home/xtren QT4_IM_MODULE=ibus QT_IM_MODULE=ibus SHLVL=1 USERNAME=xtren WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1439 INVOCATION_ID=f9110a4d970340059d9114be99a8635c JOURNAL_STREAM=9:48741
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren       1685  0.0  0.3 162812  7696 ?        -    19:41   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session SHELL=/bin/bash DBUS_STARTER_ADDRESS=unix:abstract=/tmp/dbus-eETWY4uFdN,guid=2b5b0c04d70f7cb8095fa6165ea797da CLUTTER_IM_MODULE=ibus XDG_CURRENT_DESKTOP=ubuntu:GNOME DISPLAY=:0 XDG_RUNTIME_DIR=/run/user/1000 QT_ACCESSIBILITY=1 DESKTOP_SESSION=ubuntu XMODIFIERS=@im=ibus WINDOWPATH=2 PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin USERNAME=xtren GTK_IM_MODULE=ibus GDMSESSION=ubuntu GTK_MODULES=gail:atk-bridge XDG_SESSION_TYPE=x11 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop JOURNAL_STREAM=9:48465 QT4_IM_MODULE=ibus IM_CONFIG_PHASE=1 GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus INVOCATION_ID=694d42c519774f5a96ea9920cec9d63a XDG_SESSION_CLASS=user XAUTHORITY=/run/user/1000/gdm/Xauthority QT_IM_MODULE=ibus USER=xtren DBUS_STARTER_BUS_TYPE=accessibility SHLVL=1 PWD=/home/xtren MANAGERPID=1439 LANG=en_US.UTF-8 _=/usr/bin/dbus-update-activation-environment XDG_SESSION_DESKTOP=ubuntu XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg HOME=/home/xtren LOGNAME=xtren
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren       1695  0.0  0.2 156220  5448 ?        -    19:41   0:00 /usr/libexec/dconf-service SHELL=/bin/bash CLUTTER_IM_MODULE=ibus DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=e0d4bd41cc458ff7af3f89e75ea797d6 XDG_CURRENT_DESKTOP=ubuntu:GNOME DISPLAY=:0 XDG_RUNTIME_DIR=/run/user/1000 QT_ACCESSIBILITY=1 DESKTOP_SESSION=ubuntu XMODIFIERS=@im=ibus WINDOWPATH=2 PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin GDMSESSION=ubuntu USERNAME=xtren GTK_IM_MODULE=ibus GTK_MODULES=gail:atk-bridge XDG_SESSION_TYPE=x11 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop JOURNAL_STREAM=9:47148 IM_CONFIG_PHASE=1 GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 QT4_IM_MODULE=ibus DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=e0d4bd41cc458ff7af3f89e75ea797d6 INVOCATION_ID=212b224037614c7b933e26f18e559a69 QT_IM_MODULE=ibus XDG_SESSION_CLASS=user XAUTHORITY=/run/user/1000/gdm/Xauthority USER=xtren DBUS_STARTER_BUS_TYPE=session SHLVL=1 PWD=/home/xtren LANG=en_US.UTF-8 MANAGERPID=1439 _=/usr/bin/dbus-update-activation-environment XDG_SESSION_DESKTOP=ubuntu XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg HOME=/home/xtren LOGNAME=xtren
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren       1702  0.0  0.3 239884  7912 ?        -    19:41   0:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren       1711  0.0  0.2  90040  4280 ?        -    19:41   0:00 /usr/libexec/gnome-session-ctl --monitor HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop CLUTTER_IM_MODULE=ibus DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 GTK_IM_MODULE=ibus IM_CONFIG_PHASE=1 PWD=/home/xtren QT4_IM_MODULE=ibus QT_IM_MODULE=ibus SHLVL=0 SSH_AGENT_PID=1620 SSH_AUTH_SOCK=/tmp/ssh-E5aDvJoJCJpe/agent.1546 USERNAME=xtren WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment NOTIFY_SOCKET=/run/user/1000/systemd/notify MANAGERPID=1439 INVOCATION_ID=400d02f6481d4a5cb6238b8df45a9dd0 JOURNAL_STREAM=9:48969
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren       1716  0.0  0.8 484576 16324 ?        -    19:41   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop CLUTTER_IM_MODULE=ibus DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 GTK_IM_MODULE=ibus IM_CONFIG_PHASE=1 PWD=/home/xtren QT4_IM_MODULE=ibus QT_IM_MODULE=ibus SHLVL=0 SSH_AGENT_PID=1620 SSH_AUTH_SOCK=/tmp/ssh-E5aDvJoJCJpe/agent.1546 USERNAME=xtren WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment NOTIFY_SOCKET=/run/user/1000/systemd/notify MANAGERPID=1439 INVOCATION_ID=182a8d8bd28d46da900d6303eac4b5d4 JOURNAL_STREAM=9:49141
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  20:00   0:00 -
+xtren       1731  0.9 11.3 3572388 227824 ?      -    19:41   0:11 /usr/bin/gnome-shell HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop CLUTTER_IM_MODULE=ibus DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 GTK_IM_MODULE=ibus IM_CONFIG_PHASE=1 PWD=/home/xtren QT4_IM_MODULE=ibus QT_IM_MODULE=ibus SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716 SHLVL=0 SSH_AGENT_PID=1620 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=xtren WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment NOTIFY_SOCKET=/run/user/1000/systemd/notify MANAGERPID=1439 INVOCATION_ID=d0ffe66fb0074f36953f2d3a34943b23 JOURNAL_STREAM=9:49397
+xtren          -  0.9    -      -     - -        Ssl  19:41   0:10 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:59   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  20:00   0:00 -
+xtren       1748  0.0  0.3 162688  7112 ?        -    19:41   0:00 /usr/libexec/ibus-engine-simple USER=xtren XDG_SEAT=seat0 XDG_SESSION_TYPE=x11 SSH_AGENT_PID=1620 SHLVL=0 QT4_IM_MODULE=ibus HOME=/home/xtren DESKTOP_SESSION=ubuntu GTK_MODULES=gail:atk-bridge DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus IM_CONFIG_PHASE=2 GTK_IM_MODULE=ibus LOGNAME=xtren XDG_SESSION_CLASS=user USERNAME=xtren XDG_SESSION_ID=2 WINDOWPATH=2 PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin XDG_RUNTIME_DIR=/run/user/1000 DISPLAY=:0 LANG=en_US.UTF-8 XDG_CURRENT_DESKTOP=ubuntu:GNOME IBUS_ENABLE_SYNC_MODE=0 XMODIFIERS=@im=ibus XDG_SESSION_DESKTOP=ubuntu XAUTHORITY=/run/user/1000/gdm/Xauthority SSH_AUTH_SOCK=/tmp/ssh-E5aDvJoJCJpe/agent.1546 SHELL=/bin/bash QT_ACCESSIBILITY=1 GDMSESSION=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 QT_IM_MODULE=ibus XDG_VTNR=2 PWD=/home/xtren XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg CLUTTER_IM_MODULE=ibus XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren       1762  0.0  1.0 507568 20148 ?        -    19:41   0:00 /usr/libexec/gnome-shell-calendar-server SHELL=/bin/bash CLUTTER_IM_MODULE=ibus DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=e0d4bd41cc458ff7af3f89e75ea797d6 XDG_CURRENT_DESKTOP=ubuntu:GNOME DISPLAY=:0 XDG_RUNTIME_DIR=/run/user/1000 QT_ACCESSIBILITY=1 DESKTOP_SESSION=ubuntu SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh XMODIFIERS=@im=ibus WINDOWPATH=2 PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin GNOME_DESKTOP_SESSION_ID=this-is-deprecated GDMSESSION=ubuntu USERNAME=xtren GTK_IM_MODULE=ibus GTK_MODULES=gail:atk-bridge XDG_SESSION_TYPE=x11 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop JOURNAL_STREAM=9:49141 IM_CONFIG_PHASE=1 GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 QT4_IM_MODULE=ibus DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=e0d4bd41cc458ff7af3f89e75ea797d6 GNOME_SHELL_SESSION_MODE=ubuntu SSH_AGENT_PID=1620 INVOCATION_ID=182a8d8bd28d46da900d6303eac4b5d4 QT_IM_MODULE=ibus XDG_SESSION_CLASS=user XAUTHORITY=/run/user/1000/gdm/Xauthority USER=xtren DBUS_STARTER_BUS_TYPE=session SHLVL=0 PWD=/home/xtren XDG_MENU_PREFIX=gnome- LANG=en_US.UTF-8 MANAGERPID=1439 _=/usr/bin/dbus-update-activation-environment XDG_SESSION_DESKTOP=ubuntu XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg HOME=/home/xtren LOGNAME=xtren
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren       1766  0.0  1.2 464160 25584 ?        -    19:41   0:00 /usr/libexec/evolution-source-registry HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop CLUTTER_IM_MODULE=ibus DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 GTK_IM_MODULE=ibus IM_CONFIG_PHASE=1 PWD=/home/xtren QT4_IM_MODULE=ibus QT_IM_MODULE=ibus SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716 SHLVL=0 SSH_AGENT_PID=1620 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=xtren WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1439 INVOCATION_ID=afe5747db96e4568bb876cf64142f5ef JOURNAL_STREAM=9:49755
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren       1792  0.0  1.2 2598512 25884 ?       -    19:41   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications SHELL=/bin/bash CLUTTER_IM_MODULE=ibus DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=e0d4bd41cc458ff7af3f89e75ea797d6 XDG_CURRENT_DESKTOP=ubuntu:GNOME DISPLAY=:0 XDG_RUNTIME_DIR=/run/user/1000 QT_ACCESSIBILITY=1 DESKTOP_SESSION=ubuntu SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh XMODIFIERS=@im=ibus WINDOWPATH=2 PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin GNOME_DESKTOP_SESSION_ID=this-is-deprecated GDMSESSION=ubuntu USERNAME=xtren GTK_IM_MODULE=ibus GTK_MODULES=gail:atk-bridge XDG_SESSION_TYPE=x11 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop JOURNAL_STREAM=9:49141 IM_CONFIG_PHASE=1 GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 QT4_IM_MODULE=ibus DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=e0d4bd41cc458ff7af3f89e75ea797d6 GNOME_SHELL_SESSION_MODE=ubuntu SSH_AGENT_PID=1620 INVOCATION_ID=182a8d8bd28d46da900d6303eac4b5d4 QT_IM_MODULE=ibus XDG_SESSION_CLASS=user XAUTHORITY=/run/user/1000/gdm/Xauthority USER=xtren DBUS_STARTER_BUS_TYPE=session SHLVL=0 PWD=/home/xtren XDG_MENU_PREFIX=gnome- LANG=en_US.UTF-8 MANAGERPID=1439 _=/usr/bin/dbus-update-activation-environment XDG_SESSION_DESKTOP=ubuntu XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg HOME=/home/xtren LOGNAME=xtren
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren       1798  0.0  0.3 313832  7704 ?        -    19:41   0:00 /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0 HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/local/share/:/usr/share/:/var/lib/snapd/desktop DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus MANAGERPID=1439 INVOCATION_ID=6634c31c1a4042c7bc798163135c4f73 JOURNAL_STREAM=9:47219
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   20:00   0:00 -
+xtren       1813  0.0  0.3 309644  6580 ?        -    19:41   0:00 /usr/libexec/gsd-a11y-settings HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop CLUTTER_IM_MODULE=ibus DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 GTK_IM_MODULE=ibus IM_CONFIG_PHASE=1 PWD=/home/xtren QT4_IM_MODULE=ibus QT_IM_MODULE=ibus SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716 SHLVL=0 SSH_AGENT_PID=1620 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=xtren WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1439 INVOCATION_ID=86dbda1064b1408b848852bf30a0619a JOURNAL_STREAM=9:50288
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren       1815  0.0  1.4 568088 29456 ?        -    19:41   0:00 /usr/libexec/gsd-color HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop CLUTTER_IM_MODULE=ibus DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 GTK_IM_MODULE=ibus IM_CONFIG_PHASE=1 PWD=/home/xtren QT4_IM_MODULE=ibus QT_IM_MODULE=ibus SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716 SHLVL=0 SSH_AGENT_PID=1620 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=xtren WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1439 INVOCATION_ID=42267c8275ff4640b761b41c641eaf10 JOURNAL_STREAM=9:50286
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren       1818  0.0  0.8 373572 16348 ?        -    19:41   0:00 /usr/libexec/gsd-datetime HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop CLUTTER_IM_MODULE=ibus DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 GTK_IM_MODULE=ibus IM_CONFIG_PHASE=1 PWD=/home/xtren QT4_IM_MODULE=ibus QT_IM_MODULE=ibus SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716 SHLVL=0 SSH_AGENT_PID=1620 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=xtren WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1439 INVOCATION_ID=02f7b085c8094383bd5c4a514317ebca JOURNAL_STREAM=9:50337
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren       1822  0.0  0.3 311712  7212 ?        -    19:41   0:00 /usr/libexec/gsd-housekeeping HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop CLUTTER_IM_MODULE=ibus DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 GTK_IM_MODULE=ibus IM_CONFIG_PHASE=1 PWD=/home/xtren QT4_IM_MODULE=ibus QT_IM_MODULE=ibus SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716 SHLVL=0 SSH_AGENT_PID=1620 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=xtren WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1439 INVOCATION_ID=79e3507e4c6d4a5eb295bca822b53648 JOURNAL_STREAM=9:50382
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren       1825  0.0  1.4 346132 28968 ?        -    19:41   0:00 /usr/libexec/gsd-keyboard HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop CLUTTER_IM_MODULE=ibus DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 GTK_IM_MODULE=ibus IM_CONFIG_PHASE=1 PWD=/home/xtren QT4_IM_MODULE=ibus QT_IM_MODULE=ibus SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716 SHLVL=0 SSH_AGENT_PID=1620 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=xtren WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1439 INVOCATION_ID=8f4abc923c7a415d91f4152cc1ad01ed JOURNAL_STREAM=9:50476
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren       1828  0.0  1.5 688184 31616 ?        -    19:41   0:00 /usr/libexec/gsd-media-keys HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop CLUTTER_IM_MODULE=ibus DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 GTK_IM_MODULE=ibus IM_CONFIG_PHASE=1 PWD=/home/xtren QT4_IM_MODULE=ibus QT_IM_MODULE=ibus SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716 SHLVL=0 SSH_AGENT_PID=1620 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=xtren WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1439 INVOCATION_ID=be272289c5ba4452ab5a7c478969e833 JOURNAL_STREAM=9:50529
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren       1830  0.0  1.4 346744 29596 ?        -    19:41   0:00 /usr/libexec/gsd-power HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop CLUTTER_IM_MODULE=ibus DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 GTK_IM_MODULE=ibus IM_CONFIG_PHASE=1 PWD=/home/xtren QT4_IM_MODULE=ibus QT_IM_MODULE=ibus SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716 SHLVL=0 SSH_AGENT_PID=1620 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=xtren WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1439 INVOCATION_ID=47f55e281f9d40f7bfc09fe28b81e073 JOURNAL_STREAM=9:50530
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren       1831  0.0  0.2 231792  5652 ?        -    19:41   0:00 /usr/libexec/gsd-disk-utility-notify USER=xtren SSH_AGENT_PID=1620 XDG_SESSION_TYPE=x11 SHLVL=0 HOME=/home/xtren QT4_IM_MODULE=ibus DESKTOP_SESSION=ubuntu GIO_LAUNCHED_DESKTOP_FILE=/etc/xdg/autostart/org.gnome.SettingsDaemon.DiskUtilityNotify.desktop GTK_MODULES=gail:atk-bridge GNOME_SHELL_SESSION_MODE=ubuntu MANAGERPID=1439 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus GIO_LAUNCHED_DESKTOP_FILE_PID=1831 IM_CONFIG_PHASE=1 LOGNAME=xtren GTK_IM_MODULE=ibus _=/usr/bin/dbus-update-activation-environment JOURNAL_STREAM=9:49141 DESKTOP_AUTOSTART_ID=102f99fc47d34353a1158804169149732900000017160033 XDG_SESSION_CLASS=user USERNAME=xtren GNOME_DESKTOP_SESSION_ID=this-is-deprecated WINDOWPATH=2 PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin INVOCATION_ID=182a8d8bd28d46da900d6303eac4b5d4 SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716 XDG_RUNTIME_DIR=/run/user/1000 XDG_MENU_PREFIX=gnome- DISPLAY=:0 LANG=en_US.UTF-8 XDG_CURRENT_DESKTOP=ubuntu:GNOME XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_SESSION_DESKTOP=ubuntu XMODIFIERS=@im=ibus SSH_AUTH_SOCK=/run/user/1000/keyring/ssh SHELL=/bin/bash QT_ACCESSIBILITY=1 GDMSESSION=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 QT_IM_MODULE=ibus PWD=/home/xtren XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop CLUTTER_IM_MODULE=ibus XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren       1832  0.0  0.5 248432 11348 ?        -    19:41   0:00 /usr/libexec/gsd-print-notifications HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop CLUTTER_IM_MODULE=ibus DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 GTK_IM_MODULE=ibus IM_CONFIG_PHASE=1 PWD=/home/xtren QT4_IM_MODULE=ibus QT_IM_MODULE=ibus SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716 SHLVL=0 SSH_AGENT_PID=1620 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=xtren WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1439 INVOCATION_ID=60ffb0d3d9e243c09b9ac0988a242fac JOURNAL_STREAM=9:50699
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren       1836  0.0  0.2 457088  5960 ?        -    19:41   0:00 /usr/libexec/gsd-rfkill HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop CLUTTER_IM_MODULE=ibus DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 GTK_IM_MODULE=ibus IM_CONFIG_PHASE=1 PWD=/home/xtren QT4_IM_MODULE=ibus QT_IM_MODULE=ibus SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716 SHLVL=0 SSH_AGENT_PID=1620 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=xtren WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1439 INVOCATION_ID=799d8b8034674e7fa7721690c48f9b39 JOURNAL_STREAM=9:50700
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren       1842  0.0  0.2 235500  5672 ?        -    19:41   0:00 /usr/libexec/gsd-screensaver-proxy HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop CLUTTER_IM_MODULE=ibus DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 GTK_IM_MODULE=ibus IM_CONFIG_PHASE=1 PWD=/home/xtren QT4_IM_MODULE=ibus QT_IM_MODULE=ibus SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716 SHLVL=0 SSH_AGENT_PID=1620 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=xtren WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1439 INVOCATION_ID=e0d63a5529e14883b4703e1cbd498a63 JOURNAL_STREAM=9:50754
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren       1847  0.0  0.4 464772  9644 ?        -    19:41   0:00 /usr/libexec/gsd-sharing HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop CLUTTER_IM_MODULE=ibus DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 GTK_IM_MODULE=ibus IM_CONFIG_PHASE=1 PWD=/home/xtren QT4_IM_MODULE=ibus QT_IM_MODULE=ibus SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716 SHLVL=0 SSH_AGENT_PID=1620 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=xtren WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1439 INVOCATION_ID=2678e12898584901b293cbdb871894fa JOURNAL_STREAM=9:50892
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren       1851  0.0  0.4 315012  8296 ?        -    19:41   0:00 /usr/libexec/gsd-smartcard HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop CLUTTER_IM_MODULE=ibus DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 GTK_IM_MODULE=ibus IM_CONFIG_PHASE=1 PWD=/home/xtren QT4_IM_MODULE=ibus QT_IM_MODULE=ibus SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716 SHLVL=0 SSH_AGENT_PID=1620 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=xtren WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1439 INVOCATION_ID=ccb0d4425f164099b5eb0c6a88982b57 JOURNAL_STREAM=9:50897
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren       1852  0.1  2.0 305060 41768 ?        -    19:41   0:01 /usr/bin/vmtoolsd -n vmusr --blockFd 3 USER=xtren SSH_AGENT_PID=1620 XDG_SESSION_TYPE=x11 SHLVL=0 HOME=/home/xtren QT4_IM_MODULE=ibus DESKTOP_SESSION=ubuntu GIO_LAUNCHED_DESKTOP_FILE=/etc/xdg/autostart/vmware-user.desktop GTK_MODULES=gail:atk-bridge GNOME_SHELL_SESSION_MODE=ubuntu MANAGERPID=1439 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus GIO_LAUNCHED_DESKTOP_FILE_PID=1837 IM_CONFIG_PHASE=1 LOGNAME=xtren GTK_IM_MODULE=ibus _=/usr/bin/dbus-update-activation-environment JOURNAL_STREAM=9:49141 DESKTOP_AUTOSTART_ID=102f99fc47d34353a1158804169148984800000017160023 XDG_SESSION_CLASS=user USERNAME=xtren GNOME_DESKTOP_SESSION_ID=this-is-deprecated WINDOWPATH=2 PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin INVOCATION_ID=182a8d8bd28d46da900d6303eac4b5d4 SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716 XDG_RUNTIME_DIR=/run/user/1000 XDG_MENU_PREFIX=gnome- DISPLAY=:0 LANG=en_US.UTF-8 XDG_CURRENT_DESKTOP=ubuntu:GNOME XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_SESSION_DESKTOP=ubuntu XMODIFIERS=@im=ibus SSH_AUTH_SOCK=/run/user/1000/keyring/ssh SHELL=/bin/bash QT_ACCESSIBILITY=1 GDMSESSION=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 QT_IM_MODULE=ibus PWD=/home/xtren XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop CLUTTER_IM_MODULE=ibus XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+xtren          -  0.1    -      -     - -        Sl   19:41   0:01 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren       1856  0.0  2.9 780408 58988 ?        -    19:41   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify USER=xtren SSH_AGENT_PID=1620 XDG_SESSION_TYPE=x11 SHLVL=0 HOME=/home/xtren QT4_IM_MODULE=ibus DESKTOP_SESSION=ubuntu GIO_LAUNCHED_DESKTOP_FILE=/etc/xdg/autostart/org.gnome.Evolution-alarm-notify.desktop GTK_MODULES=gail:atk-bridge GNOME_SHELL_SESSION_MODE=ubuntu MANAGERPID=1439 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus GIO_LAUNCHED_DESKTOP_FILE_PID=1856 IM_CONFIG_PHASE=1 LOGNAME=xtren GTK_IM_MODULE=ibus _=/usr/bin/dbus-update-activation-environment JOURNAL_STREAM=9:49141 DESKTOP_AUTOSTART_ID=102f99fc47d34353a1158804169148509900000017160017 XDG_SESSION_CLASS=user USERNAME=xtren GNOME_DESKTOP_SESSION_ID=this-is-deprecated WINDOWPATH=2 PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin INVOCATION_ID=182a8d8bd28d46da900d6303eac4b5d4 SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716 XDG_RUNTIME_DIR=/run/user/1000 XDG_MENU_PREFIX=gnome- DISPLAY=:0 LANG=en_US.UTF-8 XDG_CURRENT_DESKTOP=ubuntu:GNOME XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_SESSION_DESKTOP=ubuntu XMODIFIERS=@im=ibus SSH_AUTH_SOCK=/run/user/1000/keyring/ssh SHELL=/bin/bash QT_ACCESSIBILITY=1 GDMSESSION=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 QT_IM_MODULE=ibus PWD=/home/xtren XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop CLUTTER_IM_MODULE=ibus XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren       1859  0.0  0.4 319232  8940 ?        -    19:41   0:00 /usr/libexec/gsd-sound HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop CLUTTER_IM_MODULE=ibus DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 GTK_IM_MODULE=ibus IM_CONFIG_PHASE=1 PWD=/home/xtren QT4_IM_MODULE=ibus QT_IM_MODULE=ibus SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716 SHLVL=0 SSH_AGENT_PID=1620 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=xtren WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1439 INVOCATION_ID=a7ddab20ceef47d5a061a82713ec4319 JOURNAL_STREAM=9:50964
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren       1865  0.0  0.3 384944  6952 ?        -    19:41   0:00 /usr/libexec/gsd-usb-protection HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop CLUTTER_IM_MODULE=ibus DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 GTK_IM_MODULE=ibus IM_CONFIG_PHASE=1 PWD=/home/xtren QT4_IM_MODULE=ibus QT_IM_MODULE=ibus SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716 SHLVL=0 SSH_AGENT_PID=1620 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=xtren WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1439 INVOCATION_ID=48fd48005c554e2c9430195d53c768d2 JOURNAL_STREAM=9:51063
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren       1875  0.0  1.3 345356 28060 ?        -    19:41   0:00 /usr/libexec/gsd-wacom HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop CLUTTER_IM_MODULE=ibus DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 GTK_IM_MODULE=ibus IM_CONFIG_PHASE=1 PWD=/home/xtren QT4_IM_MODULE=ibus QT_IM_MODULE=ibus SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716 SHLVL=0 SSH_AGENT_PID=1620 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=xtren WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1439 INVOCATION_ID=6505818576f6416ca898dcdab94c5b3b JOURNAL_STREAM=9:51140
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren       1877  0.0  0.4 313968  8168 ?        -    19:41   0:00 /usr/libexec/gsd-wwan HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop CLUTTER_IM_MODULE=ibus DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 GTK_IM_MODULE=ibus IM_CONFIG_PHASE=1 PWD=/home/xtren QT4_IM_MODULE=ibus QT_IM_MODULE=ibus SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716 SHLVL=0 SSH_AGENT_PID=1620 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=xtren WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1439 INVOCATION_ID=9db5e1a5d2854089967b8beb11984b04 JOURNAL_STREAM=9:51292
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren       1878  0.0  1.4 346616 29828 ?        -    19:41   0:00 /usr/libexec/gsd-xsettings HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop CLUTTER_IM_MODULE=ibus DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 GTK_IM_MODULE=ibus IM_CONFIG_PHASE=1 PWD=/home/xtren QT4_IM_MODULE=ibus QT_IM_MODULE=ibus SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716 SHLVL=0 SSH_AGENT_PID=1620 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=xtren WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1439 INVOCATION_ID=37c7c2e5cf8248308d5257870e818325 JOURNAL_STREAM=9:51293
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren       1882  0.0  1.4 707788 29812 ?        -    19:41   0:00 /usr/libexec/evolution-calendar-factory HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop CLUTTER_IM_MODULE=ibus DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 GTK_IM_MODULE=ibus IM_CONFIG_PHASE=1 PWD=/home/xtren QT4_IM_MODULE=ibus QT_IM_MODULE=ibus SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716 SHLVL=0 SSH_AGENT_PID=1620 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=xtren WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1439 INVOCATION_ID=97b1eed1d9c24512886320c4acfe6c81 JOURNAL_STREAM=9:51368
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren       1925  0.0  0.7 342152 15032 ?        -    19:41   0:00 /usr/libexec/gsd-printer HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop CLUTTER_IM_MODULE=ibus DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 GTK_IM_MODULE=ibus IM_CONFIG_PHASE=1 PWD=/home/xtren QT4_IM_MODULE=ibus QT_IM_MODULE=ibus SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716 SHLVL=0 SSH_AGENT_PID=1620 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=xtren WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1439 INVOCATION_ID=60ffb0d3d9e243c09b9ac0988a242fac JOURNAL_STREAM=9:50699
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:41   0:00 -
+xtren       1939  0.0  1.4 673388 29568 ?        -    19:41   0:00 /usr/libexec/evolution-addressbook-factory HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop CLUTTER_IM_MODULE=ibus DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 GTK_IM_MODULE=ibus IM_CONFIG_PHASE=1 PWD=/home/xtren QT4_IM_MODULE=ibus QT_IM_MODULE=ibus SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716 SHLVL=0 SSH_AGENT_PID=1620 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=xtren WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1439 INVOCATION_ID=f648698d54aa4ec985db7f001e1f404f JOURNAL_STREAM=9:52889
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:41   0:00 -
+xtren       2077  0.0  0.3 162284  6292 ?        -    19:42   0:00 /usr/libexec/gvfsd-metadata HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop CLUTTER_IM_MODULE=ibus DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 GTK_IM_MODULE=ibus IM_CONFIG_PHASE=1 PWD=/home/xtren QT4_IM_MODULE=ibus QT_IM_MODULE=ibus SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716 SHLVL=0 SSH_AGENT_PID=1620 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=xtren WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1439 INVOCATION_ID=1a864890057741a698540a9866be5c49 JOURNAL_STREAM=9:54742
+xtren          -  0.0    -      -     - -        Ssl  19:42   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:42   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:42   0:00 -
+xtren       2104  0.1  2.4 957588 49536 ?        -    19:42   0:01 /usr/libexec/gnome-terminal-server HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop CLUTTER_IM_MODULE=ibus DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 GTK_IM_MODULE=ibus IM_CONFIG_PHASE=1 PWD=/home/xtren QT4_IM_MODULE=ibus QT_IM_MODULE=ibus SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716 SHLVL=0 SSH_AGENT_PID=1620 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=xtren WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1439 INVOCATION_ID=e1cd6db2ba374a0c96b9dd6e8f14fa4e JOURNAL_STREAM=9:54904
+xtren          -  0.1    -      -     - -        Ssl  19:42   0:01 -
+xtren          -  0.0    -      -     - -        Ssl  19:42   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:42   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:42   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:42   0:00 -
+xtren       2116  0.0  0.2  10836  5184 pts/0    -    19:42   0:00 bash SSH_AUTH_SOCK=/run/user/1000/keyring/ssh SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716 GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/b6dd3f07_6d30_41f0_bf50_9887ff4218f5 SSH_AGENT_PID=1620 XDG_CURRENT_DESKTOP=ubuntu:GNOME LANG=en_US.UTF-8 IM_CONFIG_PHASE=1 COLORTERM=truecolor QT_IM_MODULE=ibus GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 DESKTOP_SESSION=ubuntu USER=xtren XDG_MENU_PREFIX=gnome- HOME=/home/xtren PWD=/home/xtren QT4_IM_MODULE=ibus DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus GTK_MODULES=gail:atk-bridge _=/usr/bin/dbus-update-activation-environment WINDOWPATH=2 XDG_SESSION_DESKTOP=ubuntu JOURNAL_STREAM=9:50529 GTK_IM_MODULE=ibus GNOME_DESKTOP_SESSION_ID=this-is-deprecated MANAGERPID=1439 CLUTTER_IM_MODULE=ibus LOGNAME=xtren XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg GNOME_TERMINAL_SERVICE=:1.85 PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin XDG_RUNTIME_DIR=/run/user/1000 XMODIFIERS=@im=ibus GNOME_SHELL_SESSION_MODE=ubuntu XDG_SESSION_TYPE=x11 SHELL=/bin/bash QT_ACCESSIBILITY=1 USERNAME=xtren VTE_VERSION=6001 INVOCATION_ID=be272289c5ba4452ab5a7c478969e833 SHLVL=0 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop XDG_SESSION_CLASS=user TERM=xterm-256color GDMSESSION=ubuntu DISPLAY=:0
+xtren          -  0.0    -      -     - -        Ss   19:42   0:00 -
+xtren       2125  0.0  1.4 493272 29184 ?        -    19:42   0:00 update-notifier USER=xtren SSH_AGENT_PID=1620 XDG_SESSION_TYPE=x11 SHLVL=0 HOME=/home/xtren QT4_IM_MODULE=ibus DESKTOP_SESSION=ubuntu GIO_LAUNCHED_DESKTOP_FILE=/etc/xdg/autostart/update-notifier.desktop GTK_MODULES=gail:atk-bridge GNOME_SHELL_SESSION_MODE=ubuntu MANAGERPID=1439 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus GIO_LAUNCHED_DESKTOP_FILE_PID=2125 IM_CONFIG_PHASE=1 LOGNAME=xtren GTK_IM_MODULE=ibus _=/usr/bin/dbus-update-activation-environment JOURNAL_STREAM=9:49141 DESKTOP_AUTOSTART_ID=102f99fc47d34353a1158804169149350800000017160028 XDG_SESSION_CLASS=user USERNAME=xtren GNOME_DESKTOP_SESSION_ID=this-is-deprecated WINDOWPATH=2 PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin INVOCATION_ID=182a8d8bd28d46da900d6303eac4b5d4 SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716 XDG_RUNTIME_DIR=/run/user/1000 XDG_MENU_PREFIX=gnome- DISPLAY=:0 LANG=en_US.UTF-8 XDG_CURRENT_DESKTOP=ubuntu:GNOME XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_SESSION_DESKTOP=ubuntu XMODIFIERS=@im=ibus SSH_AUTH_SOCK=/run/user/1000/keyring/ssh SHELL=/bin/bash QT_ACCESSIBILITY=1 GDMSESSION=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 QT_IM_MODULE=ibus PWD=/home/xtren XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop CLUTTER_IM_MODULE=ibus XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+xtren          -  0.0    -      -     - -        Sl   19:42   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:42   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:42   0:00 -
+xtren          -  0.0    -      -     - -        Sl   19:42   0:00 -
+root        2214  0.0  0.0      0     0 ?        -    19:55   0:00 [kworker/0:0-events]
+root           -  0.0    -      -     - -        I    19:55   0:00 -
+root        2344  0.0  0.0      0     0 ?        -    19:59   0:00 [kworker/u256:0-events_power_efficient]
+root           -  0.0    -      -     - -        I    19:59   0:00 -
+xtren       2686  0.3  1.4 435272 29748 ?        -    19:59   0:00 /usr/libexec/tracker-store HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop CLUTTER_IM_MODULE=ibus DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 GTK_IM_MODULE=ibus IM_CONFIG_PHASE=1 PWD=/home/xtren QT4_IM_MODULE=ibus QT_IM_MODULE=ibus SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716 SHLVL=0 SSH_AGENT_PID=1620 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=xtren WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1439 INVOCATION_ID=8463d4f27015452da4bb8b075cb991ce JOURNAL_STREAM=9:58692
+xtren          -  0.0    -      -     - -        Ssl  19:59   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:59   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:59   0:00 -
+xtren          -  0.0    -      -     - -        Ssl  19:59   0:00 -
+xtren          -  0.1    -      -     - -        Ssl  19:59   0:00 -
+xtren       3098  3.9  3.5 985096 71960 ?        -    20:00   0:00 /usr/bin/nautilus --gapplication-service SHELL=/bin/bash CLUTTER_IM_MODULE=ibus DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=e0d4bd41cc458ff7af3f89e75ea797d6 XDG_CURRENT_DESKTOP=ubuntu:GNOME DISPLAY=:0 XDG_RUNTIME_DIR=/run/user/1000 QT_ACCESSIBILITY=1 DESKTOP_SESSION=ubuntu SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh XMODIFIERS=@im=ibus WINDOWPATH=2 PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin GNOME_DESKTOP_SESSION_ID=this-is-deprecated GDMSESSION=ubuntu USERNAME=xtren GTK_IM_MODULE=ibus GTK_MODULES=gail:atk-bridge XDG_SESSION_TYPE=x11 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop JOURNAL_STREAM=9:49141 IM_CONFIG_PHASE=1 GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 QT4_IM_MODULE=ibus DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=e0d4bd41cc458ff7af3f89e75ea797d6 GNOME_SHELL_SESSION_MODE=ubuntu SSH_AGENT_PID=1620 INVOCATION_ID=182a8d8bd28d46da900d6303eac4b5d4 QT_IM_MODULE=ibus XDG_SESSION_CLASS=user XAUTHORITY=/run/user/1000/gdm/Xauthority USER=xtren DBUS_STARTER_BUS_TYPE=session SHLVL=0 PWD=/home/xtren XDG_MENU_PREFIX=gnome- LANG=en_US.UTF-8 MANAGERPID=1439 _=/usr/bin/dbus-update-activation-environment XDG_SESSION_DESKTOP=ubuntu XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg HOME=/home/xtren LOGNAME=xtren
+xtren          -  3.6    -      -     - -        Sl   20:00   0:00 -
+xtren          -  0.0    -      -     - -        Sl   20:00   0:00 -
+xtren          -  0.0    -      -     - -        Sl   20:00   0:00 -
+xtren          -  0.0    -      -     - -        Sl   20:00   0:00 -
+xtren          -  0.0    -      -     - -        Sl   20:00   0:00 -
+xtren          -  0.0    -      -     - -        Sl   20:00   0:00 -
+xtren          -  0.0    -      -     - -        Sl   20:00   0:00 -
+root        3107  1.3  0.2  16416  5932 ?        -    20:00   0:00 /lib/systemd/systemd-hostnamed
+root           -  1.3    -      -     - -        Ss   20:00   0:00 -
+xtren       3141  0.0  0.0   2608  1516 pts/0    -    20:00   0:00 /bin/sh ./test.sh SHELL=/bin/bash SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716 QT_ACCESSIBILITY=1 COLORTERM=truecolor XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_MENU_PREFIX=gnome- GNOME_DESKTOP_SESSION_ID=this-is-deprecated GTK_IM_MODULE=ibus QT4_IM_MODULE=ibus GNOME_SHELL_SESSION_MODE=ubuntu SSH_AUTH_SOCK=/run/user/1000/keyring/ssh XMODIFIERS=@im=ibus DESKTOP_SESSION=ubuntu SSH_AGENT_PID=1620 GTK_MODULES=gail:atk-bridge PWD=/home/xtren LOGNAME=xtren XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 XAUTHORITY=/run/user/1000/gdm/Xauthority WINDOWPATH=2 HOME=/home/xtren USERNAME=xtren IM_CONFIG_PHASE=1 LANG=en_US.UTF-8 LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36: XDG_CURRENT_DESKTOP=ubuntu:GNOME VTE_VERSION=6001 GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/b6dd3f07_6d30_41f0_bf50_9887ff4218f5 INVOCATION_ID=be272289c5ba4452ab5a7c478969e833 MANAGERPID=1439 CLUTTER_IM_MODULE=ibus LESSCLOSE=/usr/bin/lesspipe %s %s XDG_SESSION_CLASS=user TERM=xterm-256color LESSOPEN=| /usr/bin/lesspipe %s USER=xtren GNOME_TERMINAL_SERVICE=:1.85 DISPLAY=:0 SHLVL=1 QT_IM_MODULE=ibus XDG_RUNTIME_DIR=/run/user/1000 JOURNAL_STREAM=9:50529 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin GDMSESSION=ubuntu DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus _=./test.sh
+xtren          -  0.0    -      -     - -        S+   20:00   0:00 -
+xtren       3148  8.0  1.7 757132 34620 ?        -    20:00   0:00 /usr/libexec/tracker-extract HOME=/home/xtren LANG=en_US.UTF-8 LOGNAME=xtren PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SHELL=/bin/bash USER=xtren XDG_RUNTIME_DIR=/run/user/1000 GTK_MODULES=gail:atk-bridge QT_ACCESSIBILITY=1 XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop CLUTTER_IM_MODULE=ibus DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DESKTOP_SESSION=ubuntu DISPLAY=:0 GDMSESSION=ubuntu GNOME_DESKTOP_SESSION_ID=this-is-deprecated GNOME_SHELL_SESSION_MODE=ubuntu GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 GTK_IM_MODULE=ibus IM_CONFIG_PHASE=1 PWD=/home/xtren QT4_IM_MODULE=ibus QT_IM_MODULE=ibus SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716 SHLVL=0 SSH_AGENT_PID=1620 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh USERNAME=xtren WINDOWPATH=2 XAUTHORITY=/run/user/1000/gdm/Xauthority XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg XDG_CURRENT_DESKTOP=ubuntu:GNOME XDG_MENU_PREFIX=gnome- XDG_SESSION_CLASS=user XDG_SESSION_DESKTOP=ubuntu XDG_SESSION_TYPE=x11 XMODIFIERS=@im=ibus _=/usr/bin/dbus-update-activation-environment MANAGERPID=1439 INVOCATION_ID=2b13e859491f41d59cc5751ff45750a5 JOURNAL_STREAM=9:63932
+xtren          -  7.0    -      -     - -        SNsl 20:00   0:00 -
+xtren          -  0.0    -      -     - -        SNsl 20:00   0:00 -
+xtren          -  0.0    -      -     - -        SNsl 20:00   0:00 -
+xtren          -  0.0    -      -     - -        SNsl 20:00   0:00 -
+xtren          -  0.0    -      -     - -        SNsl 20:00   0:00 -
+xtren          -  0.0    -      -     - -        SNsl 20:00   0:00 -
+xtren          -  0.0    -      -     - -        SNsl 20:00   0:00 -
+xtren          -  0.0    -      -     - -        SNsl 20:00   0:00 -
+xtren          -  0.0    -      -     - -        SNsl 20:00   0:00 -
+xtren          -  0.0    -      -     - -        SNsl 20:00   0:00 -
+xtren          -  0.0    -      -     - -        SNsl 20:00   0:00 -
+xtren          -  0.0    -      -     - -        SNsl 20:00   0:00 -
+xtren          -  0.0    -      -     - -        SNsl 20:00   0:00 -
+xtren          -  0.0    -      -     - -        SNsl 20:00   0:00 -
+xtren          -  0.0    -      -     - -        SNsl 20:00   0:00 -
+xtren          -  0.0    -      -     - -        SNsl 20:00   0:00 -
+xtren          -  0.0    -      -     - -        SNsl 20:00   0:00 -
+xtren       3503  0.0  0.1  11824  3584 pts/0    -    20:00   0:00 ps auxwwem LESSOPEN=| /usr/bin/lesspipe %s USER=xtren SSH_AGENT_PID=1620 XDG_SESSION_TYPE=x11 SHLVL=1 QT4_IM_MODULE=ibus HOME=/home/xtren DESKTOP_SESSION=ubuntu GNOME_SHELL_SESSION_MODE=ubuntu GTK_MODULES=gail:atk-bridge MANAGERPID=1439 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus COLORTERM=truecolor IM_CONFIG_PHASE=1 GTK_IM_MODULE=ibus LOGNAME=xtren JOURNAL_STREAM=9:50529 _=./test.sh XDG_SESSION_CLASS=user USERNAME=xtren TERM=xterm-256color GNOME_DESKTOP_SESSION_ID=this-is-deprecated WINDOWPATH=2 PATH=/home/xtren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin SESSION_MANAGER=local/ubuntu:@/tmp/.ICE-unix/1716,unix/ubuntu:/tmp/.ICE-unix/1716 INVOCATION_ID=be272289c5ba4452ab5a7c478969e833 XDG_MENU_PREFIX=gnome- GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/b6dd3f07_6d30_41f0_bf50_9887ff4218f5 XDG_RUNTIME_DIR=/run/user/1000 DISPLAY=:0 LANG=en_US.UTF-8 XDG_CURRENT_DESKTOP=ubuntu:GNOME XMODIFIERS=@im=ibus XDG_SESSION_DESKTOP=ubuntu XAUTHORITY=/run/user/1000/gdm/Xauthority LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36: GNOME_TERMINAL_SERVICE=:1.85 SSH_AUTH_SOCK=/run/user/1000/keyring/ssh SHELL=/bin/bash QT_ACCESSIBILITY=1 GDMSESSION=ubuntu LESSCLOSE=/usr/bin/lesspipe %s %s GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1 QT_IM_MODULE=ibus PWD=/home/xtren XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg CLUTTER_IM_MODULE=ibus XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop VTE_VERSION=6001
+xtren          -  0.0    -      -     - -        R+   20:00   0:00 -
